@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- lang Attribute -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Ttile</title>
+    <!-- internal CSS -->
+    <style>
+        body {
+            background-color: powderblue;
+            background-image: url('img_girl.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+        h1 {
+          color: blue;
+          font-family: verdana;
+          font-size: 300%;
+        }
+        p {
+          color: red;
+          font-family: courier;
+          font-size: 160%;
+          border: 2px solid powderblue;
+          padding: 30px;
+          margin: 50px;
+        }
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:link, a:visited {
+          background-color: #f44336;
+          color: white;
+          padding: 15px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+
+        a:hover, a:active {
+          background-color: red;
+        }
+
+        img {
+          width: 100%;
+        }
+        p {
+         background-image: url('img_girl.jpg');
+        }
+        
+    </style>
+    <!-- link to External CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!--HTML elements -->
+    <h1>My First Heading</h1>
+    <p>
+      My First <br />
+      paragraph
+    </p>
+    <p>another paragraph</p>
+
+    <!--HTML attributes -->
+    <a href="https://www.w3schools.com">w3schools</a>
+    <!-- src attributes,width and height Attributes,alt Attribute -->
+    <img src="w3schools.jpeg" alt="W3Schools.com" width="104" height="142" />
+    <!-- style Attribute -->
+    <p style="color: red">This is a red paragraph.</p>
+    <!-- title Attribute -->
+    <p title="I'm a tooltip">This is a paragraph.</p>
+
+    <!-- HTML Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- HTML Paragraphs -->
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <!-- HTML Display -->
+    <p>
+        This paragraph
+        contains a lot of lines
+        in the source code,
+        but the browser
+        ignores it.
+    </p>
+        
+    <p>
+        This paragraph
+        contains         a lot of spaces
+        in the source         code,
+        but the        browser
+        ignores it.
+    </p>
+
+    <!-- HTML Horizontal Rules -->
+    <h1>This is heading 1</h1>
+    <p>This is some text.</p>
+    <hr>
+    <h2>This is heading 2</h2>
+    <p>This is some other text.</p>
+    <hr>
+
+    <!-- HTML Line Breaks -->
+    <p>This is<br>a paragraph<br>with line breaks.</p>
+
+    <!-- The Poem Problem -->
+    <p>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </p>
+
+    <!-- Solution - The HTML <pre> Element -->
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </pre>
+
+    <!-- HTML Styles -->
+    <!-- Background Color -->
+    <h1 style="background-color:powderblue;">This is a heading</h1>
+    <p style="background-color:tomato;">This is a paragraph.</p>
+    <!-- Text Color -->
+    <h1 style="color:blue;">This is a heading</h1>
+    <p style="color:red;">This is a paragraph.</p>
+    <!-- Fonts -->
+    <h1 style="font-family:verdana;">This is a heading</h1>
+    <p style="font-family:courier;">This is a paragraph.</p>
+    <!-- Text Size -->
+    <h1 style="font-size:300%;">This is a heading</h1>
+    <p style="font-size:160%;">This is a paragraph.</p>
+    <!-- Text Alignment -->
+    <h1 style="text-align:center;">Centered Heading</h1>
+    <p style="text-align:center;">Centered paragraph.</p>
+
+    <!-- HTML Text Formatting -->
+
+    <!-- HTML <b> and <strong> Elements -->
+        <b>This text is bold</b><br>
+        <strong>This text is important!</strong><br>
+    <!-- HTML <i> and <em> Elements -->
+        <i>This text is italic</i><br>
+        <em>This text is emphasized</em>
+    <!-- HTML <small> Element -->
+        <small>This is some smaller text.</small>
+    <!-- HTML <mark> Element -->
+        <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <!-- HTML <del> Element -->
+        <p>My favorite color is <del>blue</del> red.</p>
+    <!-- HTML <ins> Element -->
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <!-- HTML <sub> Element -->
+        <p>This is <sub>subscripted</sub> text.</p>
+    <!-- HTML <sup> Element -->
+        <p>This is <sup>superscripted</sup> text.</p>
+        
+    <!-- HTML Quotation and Citation Elements -->
+    <!-- HTML <blockquote> for Quotations -->
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+    <!-- HTML <q> for Short Quotations -->
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    <!-- HTML <abbr> for Abbreviations -->
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <!-- HTML <address> for Contact Information -->
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+    <!-- HTML <cite> for Work Title     -->
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <!-- HTML <bdo> for Bi-Directional Override -->
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+    <!-- HTML Colors -->
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
+    <!-- Text Color -->
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum...</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+    <!-- Border Color -->
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+    <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border:2px solid Violet;">Hello World</h1>
+    <!-- Color Values -->
+    <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+    <h1 style="background-color:#ff6347;">...</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>    
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+
+    <!-- HTML Styles - CSS -->
+    <!-- Inline CSS -->
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
+    <!-- Internal CSS -->
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <!-- External CSS -->
+    <h1 class="ex-h1">This is a heading</h1>
+    <p class="ex-p">This is a paragraph.</p>
+    <!-- CSS Colors, Fonts and Sizes -->
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <!-- CSS Border -->
+
+    <!-- HTML Links -->
+    <!-- HTML Links - Hyperlinks -->
+    <!-- HTML Links - Syntax -->
+    <a href="url">link text</a>
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+    <!-- HTML Links - The target Attribute -->
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    <!-- Absolute URLs vs. Relative URLs -->
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+    
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+    <!-- HTML Links - Use an Image as a Link -->
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+    <!-- Link to an Email Address -->
+    <a href="mailto:someone@example.com">Send email</a>
+    <!-- Button as a Link -->
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    <!-- Link Titles -->
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <!-- More on Absolute URLs and Relative URLs -->
+    <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+    <!-- HTML Links - Different Colors -->
+    <!-- HTML Link Colors -->
+    <!-- Link Buttons -->
+    <!-- HTML Links - Create Bookmarks -->
+    <!-- Create a Bookmark in HTML -->
+    <h2 id="C4">Chapter 4</h2>
+    <a href="#C4">Jump to Chapter 4</a>
+    <a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+    <!-- HTML Images -->
+    <img src="pic_trulli.jpg" alt="Italian Trulli">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+    <!-- HTML Images Syntax -->
+    <img src="url" alt="alternatetext">
+    <!-- The src Attribute -->
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+    <!-- The alt Attribute -->
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+    <img src="wrongname.gif" alt="Flowers in Chania">
+    <!-- Image Size - Width and Height -->
+    <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+    <!-- Width and Height, or Style? -->
+    <img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+    <img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+    <!-- Images in Another Folder -->
+    <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+    <!-- Images on Another Server/Website -->
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    <!-- Animated Images -->
+    <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <!-- Image as a Link -->
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+    <!-- Image Floating -->
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+    
+    <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+    The image will float to the left of the text.</p>
+    
+    <!-- Image Maps -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    <!-- The Image -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <!-- Create Image Map -->
+    <map name="workmap"></map>
+    <!-- The Areas -->
+    <area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+    <area shape="circle" coords="337, 300, 44" href="coffee.htm">
+    <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+    <!-- Image Map and JavaScript -->
+    <map name="workmap">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+    </map>
+    <!-- HTML Background Images -->
+    <!-- Background Image on an HTML element -->
+    <p style="background-image: url('img_girl.jpg');"></p>
+    <!-- Background Image on a Page -->
+    <!-- Background Cover -->
+    <!-- HTML <picture> Element -->
+    
+
+    <script>
+        function myFunction() {
+          alert("You clicked the coffee cup!");
+        }
+    </script>
+  </body>
+</html>
