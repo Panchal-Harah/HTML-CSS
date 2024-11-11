@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Ttile</title>
+    <title>HTML Tutorial</title>
     <!-- internal CSS -->
     <style>
         body {
@@ -74,6 +74,7 @@
     </style>
     <!-- link to External CSS -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   </head>
   <body>
     <!--HTML elements -->
@@ -345,8 +346,284 @@
     <!-- Background Image on a Page -->
     <!-- Background Cover -->
     <!-- HTML <picture> Element -->
+    <!-- HTML Tables -->
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+
+    <!-- Table Cells -->
+    <table>
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+    </table>
+
+    <!-- Table Rows -->
+    <table>
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <!-- Table Headers -->
+    <table>
+      <tr>
+        <th>Person 1</th>
+        <th>Person 2</th>
+        <th>Person 3</th>
+      </tr>
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <!-- HTML Table Borders -->
+    <!-- HTML Table Sizes -->
+    <table style="width:100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <!-- HTML Table Column Width -->
+    <table style="width:100%">
+      <tr>
+        <th style="width:70%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <!-- HTML Table Row Height -->
+    <table style="width:100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr style="height:200px">
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <!-- HTML Table Headers -->
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <!-- Vertical Table Headers -->
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+      </tr>
+      <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>Jackson</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>94</td>
+        <td>50</td>
+      </tr>
+    </table>
+
+    <!-- Align Table Headers -->
+    <!-- Header for Multiple Columns -->
+    <table>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <!-- Table Caption -->
+    <table style="width:100%">
+      <caption>Monthly savings</caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$50</td>
+      </tr>
+    </table>
+
+    <!-- HTML Lists -->
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <!-- Ordered HTML List -->
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <!-- HTML Description Lists -->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+
+
+
+    <!-- The <form> Element -->
+    <!-- The <input> Element -->
+    <!-- Text Fields -->
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+    </form>
+
+    <!-- Radio Buttons -->
+    <p>Choose your favorite Web language:</p>
+
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    </form>
+
+    <!-- Checkboxes -->
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <!-- The Submit Button -->
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- The Name Attribute for <input> -->
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" value="John"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- The Action Attribute The Target Attribute The Method Attribute The Autocomplete Attribute The Novalidate Attribute -->
+    <form action="/action_page.php" target="_blank" autocomplete="on" novalidate>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
     
     
+
     <script>
         function myFunction() {
           alert("You clicked the coffee cup!");
